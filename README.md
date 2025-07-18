@@ -1,33 +1,88 @@
-# FUTURE_CS_01
-<b> Web Application Security Testing</b>
+# 🛡️ Web Application Security Testing
 
-## 📝 Project Overview
-This project involves conducting security testing on a sample web application to uncover vulnerabilities such as SQL injection, XSS (Cross-Site Scripting), and authentication flaws. The goal is to simulate ethical hacking techniques to assess and improve the application’s security posture.
+## 🔍 Project Overview
+This task involved conducting vulnerability assessments on a deliberately vulnerable web application using OWASP methodologies. The goal was to identify and document at least **3–5 real-world web vulnerabilities** with remediation steps and risk levels.
 
-## 🔧 Tools Used
-- OWASP ZAP
-- Burp Suite
-- SQLMap
+## 🧠 Skills Gained
+- Web application vulnerability scanning  
+- Security documentation and reporting  
+- Knowledge of OWASP Top 10 threats  
+- Ethical hacking and penetration testing  
+- Threat modeling and risk analysis  
 
-## 🛠️ Skills Gained
-- Web application security
-- Vulnerability assessment
-- Ethical hacking
-- Penetration testing
+## 🛠️ Tools Used
+- **OWASP ZAP** – Open-source web app scanner  
+- **Burp Suite (Community Edition)** – Manual testing toolkit  
+- **SQLMap** – SQL injection automation tool  
+- **OWASP Juice Shop / DVWA / bWAPP** – Vulnerable test apps  
+- **Kali Linux (optional)** – Security testing OS  
+- **Google Docs or Word** – Final report creation  
 
-## 📄 Deliverables
-- Security testing report with:
-  - Identified vulnerabilities
-  - Screenshots of findings
-  - Recommended mitigation strategies
+## 🗂️ Deliverables
+- ✅ Security Assessment Report (PDF)  
+- ✅ Screenshots of findings and attack vectors  
+- ✅ OWASP Top 10 Checklist mapping  
+- ✅ Mitigation and remediation recommendations  
+- ✅ Tool logs (ZAP, Burp issues, etc.)
 
-## 📂 Folder Structure
+## 📌 Key Features Included
+- [x] Documented 3–5 real vulnerabilities  
+- [x] Included impact level and risk rating  
+- [x] Provided screenshots and attack evidence  
+- [x] Suggested mitigation for each issue  
+- [x] Mapped vulnerabilities to OWASP Top 10  
+
+## 📁 Folder Structure
 ```
-Web-App-Security-Testing/
+WebApp-Security-Testing/
 ├── README.md
-├── findings_report.md
-├── screenshots/ │
-├── zap_scan.png │
-├── burp_results.png
-│ └── sqlmap_output.png
+├── reports/
+│ └── security_assessment_report.pdf
+├── owasp_checklist/
+│ └── OWASP_Top10_Mapping.pdf
+├── screenshots/│
+├── zap_findings.png│
+├── burp_results.png │
+└── vuln_1_xss.png
+├── logs/ │
+├── zap_report.txt │
+└── burp_log.txt
 ```
+## 🔎 Sample Analysis Insights
+
+### 🔴 High Severity Vulnerabilities
+- **SQL Injection**: Enabled database manipulation via login forms.
+- **XSS (Cross-Site Scripting)**: Allowed script injection into search fields.
+- **Broken Authentication**: Users could bypass login mechanisms with simple payloads.
+
+### 🟠 Medium Severity Vulnerabilities
+- **Information Disclosure**: Server error messages leaked internal paths.
+- **Insecure Direct Object Reference (IDOR)**: Users could access other users’ data by changing IDs in URLs.
+
+### 🟢 Low Severity Vulnerabilities
+- **Clickjacking**: Page could be embedded in an iframe without protection.
+- **Security Misconfigurations**: Default admin portals exposed and unused services running.
+
+## 📊 Dashboards & Visuals
+
+Screenshots and logs were captured from each tool used:
+
+| Tool | Screenshot |
+|------|------------|
+| **OWASP ZAP** | ![ZAP Results](screenshots/zap_findings.png) |
+| **Burp Suite** | ![Burp Output](screenshots/burp_results.png) |
+| **Attack Vectors** | ![XSS Example](screenshots/vuln_1_xss.png) |
+
+## 🧾 Final Outcome
+
+This assessment demonstrated how common web application flaws can be exploited and visualized using industry tools. Key takeaways:
+
+- **3–5 real vulnerabilities** were successfully discovered.
+- Issues were mapped against the **OWASP Top 10**, with explanations and fixes.
+- The findings were compiled into a **professional-grade Security Assessment Report** with risk ratings and mitigation strategies.
+
+The completed project simulates real-world penetration testing and is suitable for use in a cybersecurity portfolio or during interviews.
+
+---
+
+**Created by:** B.Brinson
