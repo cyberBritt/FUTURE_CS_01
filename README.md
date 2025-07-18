@@ -22,8 +22,8 @@ This project involves conducting security testing on a sample web application to
   - Recommended mitigation strategies
 
 ## 📂 Folder Structure
-### Web-App-Security-Testing/
 ```
+Web-App-Security-Testing/
 ├── README.md
 ├── findings_report.md
 ├── screenshots/ │
