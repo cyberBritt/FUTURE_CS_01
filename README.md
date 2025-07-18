@@ -23,5 +23,11 @@ This project involves conducting security testing on a sample web application to
 
 ## 📂 Folder Structure
 ```
-Web-App-Security-Testing/ ├── README.md ├── findings_report.md ├── screenshots/ │ ├── zap_scan.png │ ├── burp_results.png │ └── sqlmap_output.png
+### Web-App-Security-Testing/
+├── README.md
+├── findings_report.md
+├── screenshots/ │
+├── zap_scan.png │
+├── burp_results.png
+│ └── sqlmap_output.png
 ```
