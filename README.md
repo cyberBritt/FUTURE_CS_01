@@ -1,7 +1,7 @@
 # 🛡️ Web Application Security Testing
 
 ## 🔍 Project Overview
-This task involved conducting vulnerability assessments on a deliberately vulnerable web application using OWASP methodologies. The goal was to identify and document at least **3–5 real-world web vulnerabilities** with remediation steps and risk levels.
+This task involved conducting vulnerability assessments on a deliberately vulnerable web application using OWASP methodologies. The goal was to identify and exploit common web vulnerabilities including SQL Injection, Cross-Site scripting with remediation steps and risk levels.
 
 ## 🧠 Skills Gained
 - Web application vulnerability scanning  
@@ -34,19 +34,22 @@ This task involved conducting vulnerability assessments on a deliberately vulner
 
 ## 📁 Folder Structure
 ```
-WebApp-Security-Testing/
+WebApp-Pentest-Report/
 ├── README.md
-├── reports/
-│ └── security_assessment_report.pdf
-├── owasp_checklist/
-│ └── OWASP_Top10_Mapping.pdf
-├── screenshots/│
-├── zap_findings.png│
-├── burp_results.png │
-└── vuln_1_xss.png
-├── logs/ │
-├── zap_report.txt │
-└── burp_log.txt
+├── Security_Report.pdf
+├── Vulnerability_Findings/
+│   └── sql_injection.md
+│   └── xss_flaw.md
+│   └── auth_bypass.md
+├── Screenshots/
+│   └── zap_scan.png
+│   └── burp_payload.png
+│   └── vuln_output.png
+├── Logs/ 
+│   └── burp_traffic_log.txt 
+│   └── zap_scan_output.txt
+├── Tools_Used.md
+└── OWASP_Top10_Checklist.md
 ```
 ## 🔎 Sample Analysis Insights
 
