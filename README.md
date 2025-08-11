@@ -1,38 +1,39 @@
-# 🛡️ Web Application Security Testing
+# Web Application Security Testing
 
-## 🔍 Project Overview
-This task involved conducting vulnerability assessments on a deliberately vulnerable web application using OWASP methodologies. The goal was to identify and exploit common web vulnerabilities including SQL Injection, Cross-Site scripting with remediation steps and risk levels.
+## Project Overview
+This task involved conducting vulnerability assessments on a deliberately vulnerable web application using OWASP. The goal was to identify and exploit common web vulnerabilities mitigation steps and risk levels.
 
-## 🧠 Skills Gained
+## Skills Gained
 - Web application vulnerability scanning  
 - Security documentation and reporting  
 - Knowledge of OWASP Top 10 threats  
 - Ethical hacking and penetration testing  
 - Threat modeling and risk analysis  
 
-## 🛠️ Tools Used
+##  Tools Used
 - **OWASP ZAP** – Open-source web app scanner  
-- **Burp Suite (Community Edition)** – Manual testing toolkit  
+- **Burp Suite** – Manual testing toolkit  
 - **SQLMap** – SQL injection automation tool  
-- **OWASP Juice Shop / DVWA / bWAPP** – Vulnerable test apps  
-- **Kali Linux (optional)** – Security testing OS  
-- **Google Docs or Word** – Final report creation  
+- **OWASP Juice Shop** – Vulnerable test app  
+- **Kali Linux** – Security testing OS  
+- **Google Docs, PDF** – Final report creation  
 
-## 🗂️ Deliverables
+## Deliverables
 - ✅ Security Assessment Report (PDF)  
 - ✅ Screenshots of findings and attack vectors  
 - ✅ OWASP Top 10 Checklist mapping  
-- ✅ Mitigation and remediation recommendations  
+- ✅ Mitigation recommendations  
 - ✅ Tool logs (ZAP, Burp issues, etc.)
 
-## 📌 Key Features Included
-- [x] Documented 3–5 real vulnerabilities  
-- [x] Included impact level and risk rating  
-- [x] Provided screenshots and attack evidence  
-- [x] Suggested mitigation for each issue  
-- [x] Mapped vulnerabilities to OWASP Top 10  
+## Vulnerabilities Found
 
-## 📁 Folder Structure
+- **SQL Injection** – Database manipulation via malicious input in login fields.
+- **Cross-Site Scripting (XSS)** – Script injection in input fields resulting in client-side code execution.
+- **Authentication Bypass** – Unauthorized access to admin account through brute-force attack.
+- **Missing CSP Header** – Increased risk of XSS attacks due to absent Content Security Policy (CSP).
+
+
+## Folder Structure
 ```
 WebApp-Pentest-Report/
 ├── README.md
@@ -41,40 +42,17 @@ WebApp-Pentest-Report/
 │   └── sql_injection.md
 │   └── xss_flaw.md
 │   └── auth_bypass.md
+│   └── csp_header.md
 ├── Screenshots/
 │   └── zap_scan.png
 │   └── burp_payload.png
 │   └── vuln_output.png
-├── Logs/ 
+├── Scripts/ 
 │   └── burp_traffic_log.txt 
 │   └── zap_scan_output.txt
 ├── Tools_Used.md
 └── OWASP_Top10_Checklist.md
 ```
-## 🔎 Sample Analysis Insights
-
-### 🔴 High Severity Vulnerabilities
-- **SQL Injection**: Enabled database manipulation via login forms.
-- **XSS (Cross-Site Scripting)**: Allowed script injection into search fields.
-- **Broken Authentication**: Users could bypass login mechanisms with simple payloads.
-
-### 🟠 Medium Severity Vulnerabilities
-- **Information Disclosure**: Server error messages leaked internal paths.
-- **Insecure Direct Object Reference (IDOR)**: Users could access other users’ data by changing IDs in URLs.
-
-### 🟢 Low Severity Vulnerabilities
-- **Clickjacking**: Page could be embedded in an iframe without protection.
-- **Security Misconfigurations**: Default admin portals exposed and unused services running.
-
-## 📊 Dashboards & Visuals
-
-Screenshots and logs were captured from each tool used:
-
-| Tool | Screenshot |
-|------|------------|
-| **OWASP ZAP** | ![ZAP Results](screenshots/zap_findings.png) |
-| **Burp Suite** | ![Burp Output](screenshots/burp_results.png) |
-| **Attack Vectors** | ![XSS Example](screenshots/vuln_1_xss.png) |
 
 ## 🧾 Final Outcome
 
@@ -89,3 +67,49 @@ The completed project simulates real-world penetration testing and is suitable f
 ---
 
 **Created by:** B.Brinson
+
+
+Web Application Penetration Testing – Task 1
+
+Project Overview
+
+This project involved testing the OWASP Juice Shop application for common security vulnerabilities. The goal was to identify, exploit, and document at least five vulnerabilities, map them to the OWASP Top 10, and provide mitigation recommendations.
+
+
+Improper Error Handling – Application leaks internal error details.
+
+
+Tools Used
+
+Kali Linux
+
+Burp Suite
+
+OWASP ZAP
+
+SQLMap
+
+Browser Developer Tools
+
+
+Folder Structure
+
+WebApp-Pentest-Report/
+│
+├── README.md
+├── Security_Report.pdf
+├── Vulnerability_Findings/
+│   ├── sql_injection.md
+│   ├── xss_flaw.md
+│   ├── auth_bypass.md
+│   ├── missing_csp_header.md
+│   └── error_handling.md
+├── Screenshots/
+│   ├── zap_scan.png
+│   ├── burp_payload.png
+│   └── vuln_output.png
+├── Logs/
+│   ├── burp_traffic_log.txt
+│   └── zap_scan_output.txt
+├── Tools_Used.md
+└── OWASP_Top10_Checklist.md
