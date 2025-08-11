@@ -36,7 +36,7 @@ This task involved conducting vulnerability assessments on a deliberately vulner
 ```
 WebApp-Pentest-Report/
 ├── README.md
-├── Security_Report.pdf
+├── PenTest_Report.pdf
 ├── Vulnerability_Findings/
 │   └── sql_injection.md
 │   └── xss_flaw.md
