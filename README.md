@@ -19,11 +19,11 @@ This task involved conducting vulnerability assessments on a deliberately vulner
 - **Google Docs, PDF** – Final report creation  
 
 ## Deliverables
-- ✅ Security Assessment Report (PDF)  
-- ✅ Screenshots of findings and attack vectors  
-- ✅ OWASP Top 10 Checklist mapping  
-- ✅ Mitigation recommendations  
-- ✅ Tool logs (ZAP, Burp issues, etc.)
+- Security Assessment Report (PDF)  
+-  Screenshots of findings and attack vectors  
+-  OWASP Top 10 Checklist mapping  
+-  Mitigation recommendations  
+-  Tool logs (ZAP, Burp issues, etc.)
 
 ## Vulnerabilities Found
 
@@ -31,7 +31,6 @@ This task involved conducting vulnerability assessments on a deliberately vulner
 - **Cross-Site Scripting (XSS)** – Script injection in input fields resulting in client-side code execution.
 - **Authentication Bypass** – Unauthorized access to admin account through brute-force attack.
 - **Missing CSP Header** – Increased risk of XSS attacks due to absent Content Security Policy (CSP).
-
 
 ## Folder Structure
 ```
@@ -44,9 +43,12 @@ WebApp-Pentest-Report/
 │   └── auth_bypass.md
 │   └── csp_header.md
 ├── Screenshots/
-│   └── zap_scan.png
+│   └── burp_get_request.png
 │   └── burp_payload.png
-│   └── vuln_output.png
+│   └── sqli_login.png
+│   └── sqli_results.png
+│   └── stored_xss.png
+│   └── zap_alert_csp.png
 ├── Scripts/ 
 │   └── burp_traffic_log.txt 
 │   └── zap_scan_output.txt
