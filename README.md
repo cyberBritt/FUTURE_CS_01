@@ -50,8 +50,9 @@ WebApp-Pentest-Report/
 │   └── stored_xss.png
 │   └── zap_alert_csp.png
 ├── Scripts/ 
-│   └── burp_traffic_log.txt 
-│   └── zap_scan_output.txt
+│   └── csp_header_test.sh 
+│   └── sql_injection.sh
+│   └── xss_flaw.sh
 ├── Tools_Used.md
 └── OWASP_Top10_Checklist.md
 ```
