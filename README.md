@@ -57,7 +57,7 @@ WebApp-Pentest-Report/
 └── OWASP_Top10_Checklist.md
 ```
 
-## 🧾 Final Outcome
+## Final Outcome
 
 This assessment demonstrated how common web application flaws can be exploited and visualized using industry tools. Key takeaways:
 
