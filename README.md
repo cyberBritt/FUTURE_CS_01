@@ -14,7 +14,7 @@ This task involved conducting vulnerability assessments on a deliberately vulner
 - **OWASP ZAP** – Open-source web app scanner  
 - **Burp Suite** – Manual testing toolkit  
 - **SQLMap** – SQL injection automation tool  
-- **OWASP Juice Shop** – Vulnerable test app  
+- **OWASP Juice Shop** – Vulnerable test app 
 - **Kali Linux** – Security testing OS  
 - **Google Docs, PDF** – Final report creation  
 
